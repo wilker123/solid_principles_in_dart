@@ -23,7 +23,7 @@ class ContaCorrenteRepository {
 }
 
 class ContaCorrente2 {
-  ContaCorrenteRepository _repository = new ContaCorrenteRepository();
+  final ContaCorrenteRepository _repository = ContaCorrenteRepository();
 
   validarContaExiste() {
     //lógica crucial de negocio;
